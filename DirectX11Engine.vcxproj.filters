@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Input">
+      <UniqueIdentifier>{59c10fdd-5812-4028-ac85-3bf398d169d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Input">
+      <UniqueIdentifier>{156f723c-369d-4fdc-8573-b17fbc1b5fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphics">
+      <UniqueIdentifier>{d53555eb-7cdc-46fd-a07c-b17004c52eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics">
+      <UniqueIdentifier>{bdc12a12-e760-49f4-9057-8a1dd3181b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphics\Object">
+      <UniqueIdentifier>{2604b4e0-ab8b-49d1-98b1-e65ed266df1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics\Object">
+      <UniqueIdentifier>{f67bc326-abef-47f2-a305-23bf13e1213e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\imGUI">
+      <UniqueIdentifier>{f40a7a14-63d9-49a1-a495-35327be1cc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\imGUI">
+      <UniqueIdentifier>{a640479e-cabb-498c-8de7-8cc50d9d3cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphics\Component">
+      <UniqueIdentifier>{f648e33d-34bc-4585-a6b6-24f42454f36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Graphics\Component">
+      <UniqueIdentifier>{af000671-206e-47c3-828a-ecf60f839604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Includes">
+      <UniqueIdentifier>{798c822b-20f0-4504-8421-e42e25b8d5b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Includes\Assimp">
+      <UniqueIdentifier>{3e4dae93-5aaf-4b3f-95b7-4217c9b37fa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\WinMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\RenderWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\DebugLog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\WindowContainer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\Keyboard.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\KeyboardEvent.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\Mouse.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Input\MouseEvent.cpp">
+      <Filter>소스 파일\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\AdapterReader.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Graphics.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shaders.cpp">
+      <Filter>소스 파일\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\Camera.cpp">
+      <Filter>소스 파일\Graphics\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Time.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imGUI\imgui.cpp">
+      <Filter>소스 파일\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imGUI\imgui_draw.cpp">
+      <Filter>소스 파일\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imGUI\imgui_impl_dx11.cpp">
+      <Filter>소스 파일\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imGUI\imgui_impl_win32.cpp">
+      <Filter>소스 파일\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imGUI\imgui_tables.cpp">
+      <Filter>소스 파일\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\imGUI\imgui_widgets.cpp">
+      <Filter>소스 파일\imGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\Renderer.cpp">
+      <Filter>소스 파일\Graphics\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\Component.cpp">
+      <Filter>소스 파일\Graphics\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Object\GameObject.cpp">
+      <Filter>소스 파일\Graphics\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\Transform.cpp">
+      <Filter>소스 파일\Graphics\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Object\Texture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Object\Color.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\SpriteRenderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\SkinedMeshRenderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Component\MeshRenderer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\EngineUtils.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\RenderWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\DebugLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\WindowContainer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\Keyboard.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\KeyboardEvent.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\Mouse.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Input\MouseEvent.h">
+      <Filter>헤더 파일\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Graphics.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\AdapterReader.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shaders.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Vertex.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Buffers.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\ConstantBufferTypes.h">
+      <Filter>헤더 파일\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\Camera.h">
+      <Filter>헤더 파일\Graphics\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Time.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imconfig.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imgui.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imgui_impl_dx11.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imgui_impl_win32.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imgui_internal.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imstb_rectpack.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imstb_textedit.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\imGUI\imstb_truetype.h">
+      <Filter>헤더 파일\imGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ComException.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\Renderer.h">
+      <Filter>헤더 파일\Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\VertexTypes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\Component.h">
+      <Filter>헤더 파일\Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Object\GameObject.h">
+      <Filter>헤더 파일\Graphics\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\ComponentTypes.h">
+      <Filter>헤더 파일\Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\Audio.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\BufferHelpers.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\CommonStates.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\DDSTextureLoader.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\DirectXHelpers.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\Effects.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\GamePad.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\GeometricPrimitive.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\GraphicsMemory.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\Keyboard.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Object\Mesh.h">
+      <Filter>헤더 파일\Graphics\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\Model.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\Mouse.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\PostProcess.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\PrimitiveBatch.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\ScreenGrab.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\SimpleMath.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\SpriteBatch.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\SpriteFont.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\Transform.h">
+      <Filter>헤더 파일\Graphics\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\WICTextureLoader.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Inculdes\XboxDDSTextureLoader.h">
+      <Filter>헤더 파일\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Object\Texture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Object\Color.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\SpriteRenderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Object\Animation\BoneAnimation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\SkinedMeshRenderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Component\MeshRenderer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineUtils.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Interpolate.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Audio.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\BufferHelpers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\CommonStates.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\DDSTextureLoader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\DirectXHelpers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Effects.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GamePad.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GeometricPrimitive.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GraphicsMemory.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Keyboard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Model.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Mouse.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\PostProcess.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\PrimitiveBatch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ScreenGrab.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SimpleMath.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SpriteBatch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SpriteFont.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\VertexTypes.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WICTextureLoader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XboxDDSTextureLoader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="vs.hlsl" />
+    <FxCompile Include="ps.hlsl" />
+    <FxCompile Include="vsSprite.hlsl" />
+    <FxCompile Include="psSprite.hlsl" />
+    <FxCompile Include="vsSkined.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Inculdes\SimpleMath.inl">
+      <Filter>헤더 파일\Includes</Filter>
+    </None>
+    <None Include="Includes\SimpleMath.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="imgui.ini" />
+  </ItemGroup>
+</Project>

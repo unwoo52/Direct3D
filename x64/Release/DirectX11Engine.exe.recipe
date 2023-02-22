@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Kyg\DirectX11\DirectX11Engine\x64\Release\DirectX11Engine.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Kyg\DirectX11\DirectX11Engine\x64\Release\ps.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Kyg\DirectX11\DirectX11Engine\x64\Release\vs.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

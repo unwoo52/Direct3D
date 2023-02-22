@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\unwoo52\source\repos\DirectX11Engine\DirectX11Engine\x64\Debug\DirectX11Engine.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\unwoo52\source\repos\DirectX11Engine\DirectX11Engine\x64\Debug\ps.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\unwoo52\source\repos\DirectX11Engine\DirectX11Engine\x64\Debug\psSprite.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\unwoo52\source\repos\DirectX11Engine\DirectX11Engine\x64\Debug\vsSkined.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\unwoo52\source\repos\DirectX11Engine\DirectX11Engine\x64\Debug\vs.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\unwoo52\source\repos\DirectX11Engine\DirectX11Engine\x64\Debug\vsSprite.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
